@@ -1,0 +1,40 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:arr-custom-notification}",
+            "name": "Debug arr-custom-script",
+            "program": "${workspaceFolder:arr-custom-notification}/.build/debug/arr-custom-script",
+            "preLaunchTask": "swift: Build Debug arr-custom-script"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:arr-custom-notification}",
+            "name": "Release arr-custom-script",
+            "program": "${workspaceFolder:arr-custom-notification}/.build/release/arr-custom-script",
+            "preLaunchTask": "swift: Build Release arr-custom-script"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:arr-custom-notification}",
+            "name": "Debug arr-custom-notification",
+            "program": "${workspaceFolder:arr-custom-notification}/.build/debug/arr-custom-notification",
+            "preLaunchTask": "swift: Build Debug arr-custom-notification"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:arr-custom-notification}",
+            "name": "Release arr-custom-notification",
+            "program": "${workspaceFolder:arr-custom-notification}/.build/release/arr-custom-notification",
+            "preLaunchTask": "swift: Build Release arr-custom-notification"
+        }
+    ]
+}
