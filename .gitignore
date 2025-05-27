@@ -1,0 +1,4 @@
+# swift build artifacts
+.build
+
+.env
