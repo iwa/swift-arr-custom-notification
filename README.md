@@ -1,4 +1,6 @@
-# arr-custom-notification
+# swift-arr-custom-notification
+
+> no longer what i use in production because binary produced is huge and it's a bit of a pain to maintain & build
 
 - Built in Swift 6.1
 - Compiled against Static Linux SDK via Docker container
